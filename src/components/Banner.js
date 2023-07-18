@@ -57,7 +57,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Aastha Garg`} </h1>
-                <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Traveller", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Traveller" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Results-driven ,ambitious and motivated software development engineer, eager to launch a career in the industry. Solid foundation in C++ and software development principles. Adept at problem-solving and quickly grasping new concepts. Excellent teamwork and communication skills honed through collaborative projects. Passionate about delivering high-quality code and staying updated with emerging technologies. Ready to contribute to innovative software solutions.</p>
                  <a href="https://drive.google.com/file/d/1Ct-Ddhl0pV9i2qbeYOdSixq_tQgaWBDA/view?usp=sharing" > <button onClick={() => console.log('connect')}>Hire Me <ArrowRightCircle size={25} /></button></a>
               </div>}
